@@ -1,0 +1,10 @@
+*{
+    margin: 10;
+    padding: 50;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing:border-box;
+}
+
+body{
+background-color: black;
+}
