@@ -139,6 +139,18 @@ right: auto;
 top: auto;
 }
 
+.align-horiz {
+    display: flex;
+  }
+
+  .align-vert {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .align-wrap{
+    display: flex;
+  }
 
 
 .btn-box{
@@ -163,6 +175,21 @@ top: auto;
     0 0 25px #0ef, 0 0 50px #0ef,
     0 0 100px #0ef, 0 0 200px #0ef
 }
+
+
+#yavuzhan img{
+    width: 350px;
+    opacity: 0;
+    animation: slideLeft 4s ease forwards;
+    animation-delay: s;
+}
+
+#yavuzhan img:hover{
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef, 0 0 50px #0ef,
+    0 0 100px #0ef, 0 0 200px #0ef
+}
+
 
 @keyframes slideRight {
     0%{
