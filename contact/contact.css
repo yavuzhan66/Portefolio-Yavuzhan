@@ -11,17 +11,27 @@ body{
     background-color: #ffffff;
 }
 
-.align-horiz {
-    display: flex;
+.navbar {
+    overflow: hidden;
+    background-color: #0ef;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
-
-  .align-vert {
-    display: flex;
-    flex-direction: column;
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
   }
-
-  .align-wrap{
-    display: flex;
+  
+  .navbar a:hover {
+    background: #ffffff;
+    color: black;
   }
 
  
@@ -33,7 +43,7 @@ body{
 display: flex;
 justify-content: center;
 font-family: cursive;
-margin-top: 50px;
+margin-top: 90px;
 }
 
 
@@ -60,6 +70,7 @@ border: 5px solid #0ef;
   #form h2{
     display: flex;
     justify-content: center;
+    font-family: cursive;
   }
   
   .form-style {
@@ -81,6 +92,8 @@ border: 5px solid #0ef;
     padding:0px;
     display:block;
     font-weight: bold;
+    font-family: cursive;
+
   }
   
   .form-style .required{
@@ -91,6 +104,8 @@ border: 5px solid #0ef;
     padding: 8px 15px 8px 15px;
     border: none;
     color: #fff;
+    font-family: cursive;
+
   }
   .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
     background: #4eb5f1;
