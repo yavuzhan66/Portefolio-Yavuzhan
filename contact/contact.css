@@ -147,10 +147,16 @@ border: 5px solid #0ef;
     background-color: #FFBABA;
   }
   
+
   
-  @media screen and (max-width:800px) {
+  
+  @media screen and (max-width:480px) {
     
-    h1 {
-   
+    #container img {
+width: 50%;
     }
   }
+
+
+
+  
