@@ -1,7 +1,7 @@
 *{
     margin: 10;
     padding: 50;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing:border-box;
 }
 
@@ -47,8 +47,11 @@ header{
     opacity: 0;
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
-
+border-bottom:3px solid #0ef;
+padding-right:.2em;
+border-right:3px solid #0ef;
 }
+
 
 .navbar a:hover{
     color: #0ef;
@@ -86,12 +89,16 @@ opacity: 0;
 animation: slideRight 1s ease forwards;
 animation-delay: 1s;
 }
+.home-content h1 span {
+    color: #0ef;
+}
 
 .home-content p{
     font-size: 20px;
 opacity: 0;
 animation: slideLeft 1s ease forwards;
-animation-delay: 1s;
+animation-delay: 2s;
+font-weight: 600;
 }
 
 .home-content h3:nth-of-type(2){
@@ -111,7 +118,6 @@ animation-delay: 1s;
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
     border-radius: 50%;
     font-size: 20px;
     color: #0ef;
@@ -158,11 +164,11 @@ top: auto;
     padding: 12px 28px;
     background: #0ef;
     border-radius: 40px;
-    font-size: 16px;
-    color: #081b29;
+    font-size: 17px;
+    color: #000000;
     letter-spacing: 1px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 800;
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
@@ -181,7 +187,7 @@ top: auto;
     width: 350px;
     opacity: 0;
     animation: slideLeft 4s ease forwards;
-    animation-delay: s;
+    animation-delay: 2s;
 }
 
 #yavuzhan img:hover{
